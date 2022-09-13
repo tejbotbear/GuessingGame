@@ -4,14 +4,17 @@
 #include <stdlib.h>
 
 
-
+int Number;
 
 int main () {
 
+  int Number;
 
   srand (time(NULL));
 
-  printf("123123123123123123");
+  Number = rand() % 100 + 1;
+  
+  printf (Number);
 
   
 }
